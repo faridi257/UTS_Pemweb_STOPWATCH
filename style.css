@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #a09c9c;
+}
+
+.judul {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #e0ece0;
+  position: absolute;
+  top: 15%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stopwatch {
+  text-align: center;
+  background-color: #49e0a6c0;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.time {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.start {
+  background-color: #4caf50;
+  color: white;
+}
+
+.pause {
+  background-color: #ff9800;
+  color: white;
+}
+
+.reset {
+  background-color: #f44336;
+  color: white;
+}
